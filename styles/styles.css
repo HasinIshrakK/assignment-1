@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+}
+.rad{
+    border-radius: 50px;
+}
+.n{
+    background-image: url(../Assets/Hero-bg.png);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding-top: 50px;
+}
+.logo{
+    color: #4E47FF;
+}
+.button{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+}
+.but{
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+.head{
+    align-items: center;
+    margin: 0 167px 0 167px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 900px;
+    height: 250px;
+}
+.h{
+
+}
+.act{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 160px 100px 140px;
+}
