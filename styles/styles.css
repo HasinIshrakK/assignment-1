@@ -45,3 +45,15 @@ nav ul li{
     justify-content: space-between;
     margin: 100px 160px 100px 140px;
 }
+.ac{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.us{
+    background-color: rgba(230, 230, 255, 10);
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 160px 100px 140px;
+    padding-top: 20px;
+}
