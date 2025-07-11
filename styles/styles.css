@@ -35,6 +35,7 @@ a{
 }
 button:hover{
     background-color: aqua;
+    transform: scale(1.15);
 }
 li{
     list-style: none;
@@ -91,6 +92,11 @@ li{
     gap: 20px;
     margin: 100px 160px 100px 140px;
 }
+.card:hover{
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transform: translateY(-10px);
+}
 main input, textarea{
     background-color: white;
     width: 500px;
@@ -99,6 +105,17 @@ main input, textarea{
     border-radius: 5px;
     display: block;
     border: none;
+}
+input:hover{
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+textarea:hover{
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+.sp:hover{
+    transform: scale(1.05);
 }
 textarea::placeholder {
   font-family: 'Arial', sans-serif;
