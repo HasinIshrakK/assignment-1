@@ -4,6 +4,12 @@ a{
 .rad{
     border-radius: 50px;
 }
+.sub{
+    color: rgba(37, 36, 50, 50);
+}
+.subb{
+    color: #4E47FF;
+}
 .n{
     background-image: url(../Assets/Hero-bg.png);
 }
@@ -37,6 +43,9 @@ nav ul li{
 .h{
 
 }
+.main{
+    background-color: rgb(245, 248, 255);
+}
 .act{
     display: flex;
     align-items: center;
@@ -50,8 +59,12 @@ nav ul li{
 }
 .us{
     background-color: rgba(230, 230, 255, 10);
+    border-radius: 10px;
     align-items: center;
     justify-content: space-between;
     margin: 100px 160px 100px 140px;
     padding-top: 20px;
+}
+main input{
+    display: block;
 }
